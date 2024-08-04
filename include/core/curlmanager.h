@@ -1,7 +1,8 @@
-#ifndef CurlManager_H
-#define CurlManager_H
+// CurlManager_H
+#pragma once
 
 #include <string>
+#include <optional>
 
 class CurlManager
 {
@@ -10,7 +11,5 @@ public:
     ~CurlManager();
 
     //size_t WriteCallback(void* contents, size_t size, size_t nmemb, void* userp);
-    void sendHttpRequest(const std::string &url);
+    std::optional<std::string> sendHttpRequest(const std::string &url);
 };
-
-#endif // CurlManager_H

@@ -1,0 +1,15 @@
+{
+    "old-chain": {
+      "kuc": "https://nces.by/wp-content/uploads/certificates/pki/kuc1.cer",
+      "kuc_crl": "https://nces.by/wp-content/uploads/certificates/pki/kuc1.crl",
+      "ruc": "https://nces.by/wp-content/uploads/certificates/pki/ruc1.cer",
+      "ruc_new": "https://nces.by/wp-content/uploads/certificates/pki/ruc2.cer",
+      "rur_crl": "https://nces.by/wp-content/uploads/certificates/pki/ruc2.crl"
+    },
+    "new-chain": {
+      "kuc": "https://nces.by/wp-content/uploads/certificates/pki/kuc2.cer",
+      "kuc_crl": "https://nces.by/wp-content/uploads/certificates/pki/kuc2.crl",
+      "ruc": "https://nces.by/wp-content/uploads/certificates/pki/ruc3.cer",
+      "rur_crl": "https://nces.by/wp-content/uploads/certificates/pki/ruc3.crl"
+    }
+}

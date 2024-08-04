@@ -6,7 +6,7 @@
 
 HttpClientAsio::HttpClientAsio() {}
 
-std::optional<std::string> HttpClientAsio::sendHttpRequest()
+std::string HttpClientAsio::sendHttpRequest()
 {
     boost::asio::io_context ioc;
     boost::asio::ip::tcp::resolver resolver(ioc);
@@ -60,5 +60,5 @@ std::optional<std::string> HttpClientAsio::sendHttpRequest()
         response_body = oss.str();
     }
 
-    return std::nullopt;
+    return "";
 }

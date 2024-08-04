@@ -1,5 +1,5 @@
  
-find_package(CURL REQUIRED)
+#find_package(CURL REQUIRED)
 
 find_package(Boost REQUIRED COMPONENTS
   system

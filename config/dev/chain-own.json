@@ -1,0 +1,15 @@
+{
+    "prod-0": {
+      "root": "http://127.0.0.1:8002/ca/root.crl",
+      "root_crl": "http://127.0.0.1:8002/ca/root.crl",
+      "subca": "",
+      "subca_crl": ""
+    },
+    "dev-0": {
+      "root": "http://127.0.0.1:8002/ca-2/fullchain.pem",
+      "root_crl": "http://127.0.0.1:8002/ca-2/ca-revoked.crl",
+      "subca": "",
+      "subca_crl": ""
+    }
+}
+  

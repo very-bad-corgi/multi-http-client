@@ -2,7 +2,10 @@ build/
 _build/
 build_*
 
+certs/
+
 .cache/
+.vscode/
 
 CMakeLists.txt.*
 CMakeUserPresets.json
