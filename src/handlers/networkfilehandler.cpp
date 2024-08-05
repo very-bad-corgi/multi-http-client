@@ -33,7 +33,7 @@ bool NetworkFileHandler::downloadCertificates(const nlohmann::json& config, cons
                     continue;
                 }
                 file << certValue.value();
-                LogManager::log(subkey+" успешно записан в "+filepath, LogType::ERR);
+                LogManager::log(subkey+" успешно записан в "+filepath);
             }
             else
             {
