@@ -3,6 +3,20 @@
 
 #include <string>
 
+template<typename A>
+struct FinalAction
+{
+    A act;
+    FinalAction(A a) : act{a} {}
+    ~FinalAction() { act(); }
+};
+
+template<typename A>
+FinalAction<A> finally(A act)
+{
+    return FinalAction<A>{act};
+}
+
 enum class Dir {
     Config,
     Certs,

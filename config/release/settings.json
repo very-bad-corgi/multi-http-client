@@ -1,0 +1,8 @@
+{
+    "logging": {
+        "INF": true,
+        "ERR": true,
+        "DBG": true,
+        "WRN": true
+    }
+}

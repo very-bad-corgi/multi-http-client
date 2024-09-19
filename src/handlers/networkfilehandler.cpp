@@ -23,7 +23,7 @@ bool NetworkFileHandler::downloadCertificates(const nlohmann::json& config, cons
 
             LogManager::log("  Key: " + subkey + ", Value: " + std::string(subvalue), LogType::DBG);
 
-            if(auto certValue = CurlManager().sendHttpRequest(std::string(subvalue)); certValue)
+            if(auto certValue = CurlManager::getInstance().sendHttpRequest(std::string(subvalue)); certValue)
             {
                 std::string filepath = subkey.ends_with("crl") ? crlFilePath : cokFilePath;
 

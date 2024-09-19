@@ -7,5 +7,6 @@ certs/
 .cache/
 .vscode/
 
+*.txt.user*
 CMakeLists.txt.*
 CMakeUserPresets.json
